@@ -1,0 +1,40 @@
+.pop-container{
+    /* border: 1px solid red; */
+    margin: 2rem 5rem;
+}
+.popular-foods{
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-between;
+    position: block;
+}
+.food-container{
+    /* border: 2px solid green; */
+    border-radius: 50%;
+    position: relative;
+    text-align: center;
+    color: #fff;
+    font-size: 13px;
+}
+.popular-foods img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    cursor: pointer;
+    border: 1px solid red;
+    /* position: relative; */
+}
+
+.popular-foods .food-name{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+@media(min-width:300px) and (max-width:800px){
+    .pop-container{
+        /* border: 1px solid red; */
+        margin: 1rem;
+    }
+    
+}

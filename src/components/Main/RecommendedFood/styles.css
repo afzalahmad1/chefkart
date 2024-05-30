@@ -1,0 +1,23 @@
+.recommended{
+    /* height: 300vh; */
+    background-color:hsla(0, 6%, 86%, 0.961);
+    margin-top: 440px;
+    padding-bottom: 15px;
+    
+}
+.rec-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: .5rem 2rem;
+    /* border: 1px solid red; */
+    margin-top: 100px;
+}
+#menu{
+    color: #fff;
+    background-color: #111;
+    padding: .5rem 1rem;
+    border-radius: 10px;
+    cursor: pointer;
+}

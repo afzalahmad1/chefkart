@@ -1,0 +1,109 @@
+.card-container{
+    display: flex;
+    border: 2px solid #ddd;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5px;
+    background-color: hsl(0, 0%, 100%);
+    padding: .6rem 2rem;
+    /* margin: .5rem 2rem; */
+    border-radius: 10px;
+    cursor: pointer;
+    
+}
+.card-container:hover{
+    border: 2px solid green;
+}
+.right-container{
+    /* border: 1px solid red; */
+    position: relative;
+    /* height: 100px; */
+}
+.card-container img{
+    width: 100px;
+    height: 80px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+#add{
+    border: 1px solid rgb(163, 80, 2);
+    color:rgb(163, 80, 2) ;
+    text-align: center;
+    flex-flow: row wrap;
+    padding: .3rem;
+    width: 35px;
+    font-size: 12px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: -10px;
+    left: 30px;
+    cursor: pointer;
+    font-weight: 500;
+    background-color: #fff;
+    
+}
+.food-name{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    column-gap: 3rem;
+}
+.plus{
+    border: 1px solid green;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: green;
+    font-size: 13px;
+    padding: .01rem .2rem;
+    /* width: 15px; */
+    /* height: 20px; */
+    margin-top: 5px;
+    border-radius: 5px;
+}
+.rating{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid green;
+    color: #fff;
+    background-color: green;
+    padding: .1rem .3rem;
+    border-radius: 5px;
+    font-size: 12px;
+}
+.refrigerator{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    column-gap: 2.5rem;
+}
+.ref{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 13px;
+}
+.ingredient{
+    font-size: 18px;
+    font-weight: 600;
+}
+.view{
+    color: orange;
+    font-size: 14px;
+    margin: .3rem 0rem;
+}
+.card-container p{
+    color: #6d6666;
+}
+@media(min-width:300px) and (max-width:800px){
+    .card-container{
+        /* border: 2px solid red; */
+        font-size: 10px;
+        flex-direction: column;
+    }
+    
+}

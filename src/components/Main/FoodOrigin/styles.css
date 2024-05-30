@@ -1,0 +1,17 @@
+.countries{
+    display: flex;
+    /* flex-flow: row wrap; */
+    overflow-x: visible;
+    scroll-behavior: smooth;
+    justify-content: space-around;
+}
+.country{
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    padding: .5rem 2rem;
+    color: #666666;
+    cursor: pointer;
+}
+.country:hover{
+    color: blue;
+}
